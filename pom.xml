@@ -4,12 +4,21 @@
 
 	<groupId>org.liquibase.ext</groupId>
 	<artifactId>liquibase-hibernate5</artifactId>
-	<version>4.2.3-SNAPSHOT</version>
+	<version>4.2.3.3.GT</version>
 
 	<name>Liquibase Hibernate Integration</name>
 	<description>Liquibase extension for hibernate integration including generating changesets based on changed hibernate mapping files    </description>
 	<url>https://github.com/liquibase/liquibase-hibernate/wiki</url>
-
+	<distributionManagement>
+		<repository>
+			<id>Geniustree Release</id>
+			<url>https://nexus.geniustree.io/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>Geniustree Snapshots</id>
+			<url>https://nexus.geniustree.io/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 	<organization>
 		<name>Liquibase.org</name>
 		<url>http://www.liquibase.org</url>
